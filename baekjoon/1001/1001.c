@@ -6,7 +6,7 @@
 
 // <파일 위치 찾기>
 // ls
-// cd ...
+// cd .. -> 파일 나가기
 // cd Algorithm/
 
 #include <stdio.h>
