@@ -109,7 +109,9 @@ int main() {
     return 0;
 }*/
 
-// 4. 반복문
+
+// 4. 반복문 - for문
+/*
 #include <stdio.h>
 
 int main() {
@@ -132,5 +134,80 @@ int main() {
     //printf("1부터 10까지의 합은 %d입니다.\n", sum);
 
     return 0;
+}*/
+
+
+// 4. 반복문 - while문
+/*
+#include <stdio.h>
+
+int main() {
+    int num, sum = 0;
+
+    printf("숫자를 입력하세요 (0을 입력하면 종료): ");
+    scanf("%d", &num);
+
+    while (num != 0) {
+        sum += num;
+        printf("숫자를 입력하세요 (0을 입력하면 종료): ");
+        scanf("%d", &num);
+    }
+
+    printf("입력한 숫자들의 합은 %d입니다.\n", sum);
+
+    return 0;
+}*/
+
+
+// 4. 반복문 - do while문
+/*
+#include <stdio.h>
+int main() {
+    int num, sum = 0;
+
+    do {
+        printf("숫자를 입력하세요 (0을 입력하면 종료): ");
+        scanf("%d", &num);
+        sum += num;
+    } while (num != 0);
+
+    printf("입력한 숫자들의 합은 %d입니다.\n", sum);
+
+    return 0;
+}*/
+
+ 
+// 6.2. 증감 연산자
+/*
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    int b = ++a; // 전위 증가: a = 6, b = 6
+    int c = a++; // 후위 증가: c = 6, a = 7
+
+    printf("a: %d, b: %d, c: %d\n", a, b, c); // a: 7, b: 6, c: 6
+
+    return 0;
+}*/
+
+
+// 6.3. 관계 연산자
+
+
+// 6.4. 논리 연산자
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 7;
+    int c = 3, d = 0;
+
+    printf("%d && %d: %d\n", a < b, c != d, (a < b) && (c != d)); // 1 (참)
+    printf("%d || %d: %d\n", a == b, c == d, (a == b) || (c == d)); // 1 (참)
+    printf("!(%d): %d\n", a > b, !(a > b)); // 1 (참)
+
+    return 0;
 }
+
+
 
