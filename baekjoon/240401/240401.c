@@ -196,6 +196,7 @@ int main() {
 
 
 // 6.4. 논리 연산자
+/*
 #include <stdio.h>
 
 int main() {
@@ -207,7 +208,9 @@ int main() {
     printf("!(%d): %d\n", a > b, !(a > b)); // 1 (참)
 
     return 0;
-}
+}*/
+
+
 
 
 
